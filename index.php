@@ -9,7 +9,7 @@ defined('YII_DEBUG') or define('YII_DEBUG',true);
 // specify how many levels of call stack should be shown in each log message
 defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
 
-//引入已经定义好的系统常量
+//import constant
 require_once (dirname(__FILE__).'/protected/config/constant.php');
 require_once($yii);
 Yii::createWebApplication($config)->run();
