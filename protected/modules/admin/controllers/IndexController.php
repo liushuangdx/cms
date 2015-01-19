@@ -40,8 +40,4 @@ class IndexController extends Controller{
         $this ->render('form');
     }
     
-    public function actionLogin(){
-        $this ->renderPartial('login');
-    }
-    
 }
